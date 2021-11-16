@@ -1,6 +1,5 @@
 import numpy as np
 from dwave.system import EmbeddingComposite, DWaveSampler
-from dwave.cloud import Client
 
 def matrix_to_dict(matrix):
     res_dict = {}
